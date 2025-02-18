@@ -1,25 +1,32 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
-    "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "serve": "vite preview",
-        "start": "vite --host"
-    },
-    "dependencies": {
-        "@sentry/browser": "^8.41.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@vitejs/plugin-react": "^4.3.4",
-        "autoprefixer": "^10.4.20",
-        "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.13",
-        "vite": "^5.4.7",
-        "@sentry/vite-plugin": "^2.23.0"
-    }
+  "name": "reactjs-vite-tailwind-vercel",
+  "version": "1.0.0",
+  "description": "AI Friend in Your Pocket - A supportive friend in your pocket",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "vite --host"
+  },
+  "dependencies": {
+    "@sentry/browser": "^8.41.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@zapt/zapt-js": "^1.0.20",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "drizzle-orm": "^0.33.0",
+    "postgres": "^3.4.5",
+    "stream-chat": "^8.56.0",
+    "stream-chat-react": "^12.11.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.7",
+    "@sentry/vite-plugin": "^2.23.0"
+  }
 }
